@@ -5,7 +5,7 @@ $(function(){
         url: "/actor",
         dataType: "JSON",
         success:function(data){
-          $("#actorspace").html(data.actor)
+          $("#actorspace").html(data.actor);
       });
   });
 });
