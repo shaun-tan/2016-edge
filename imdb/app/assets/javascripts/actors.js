@@ -6,6 +6,7 @@ $(function(){
         dataType: "JSON",
         success:function(data){
           $("#actorspace").html(data.actor);
+        }
       });
   });
 });
